@@ -43,6 +43,21 @@ Een Next.js 14 applicatie voor gezinnen om samen hun puppy op te voeden met gest
 
 4. Open je browser op [http://localhost:3001](http://localhost:3001)
 
+### GitHub Repository Aanmaken
+
+1. Ga naar https://github.com/new
+2. Vul 'puppyhulp' in als repository naam
+3. Geef eventueel een korte beschrijving
+4. Kies of je de repository publiek of privé wilt maken
+5. Klik op 'Create repository'
+6. Voer daarna de volgende commando's uit:
+
+```bash
+git remote add origin https://github.com/atquest/puppyhulp.git
+git branch -M main
+git push -u origin main
+```
+
 ### XCloud.host Deployment
 
 Deze applicatie is geoptimaliseerd voor gebruik met XCloud.host:
